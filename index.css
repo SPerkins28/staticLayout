@@ -1,0 +1,238 @@
+body {
+    color: #2DBD9D;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+
+#topContainer {
+    display: flex;
+    padding: 60px 40px 60px 40px;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topBG {
+    background-image: url("../staticLayout/assets/huluBackground.jpg");
+    max-width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 40px;
+}
+
+.loginB {
+    color: #FFFFFF;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 23px 0 17px;
+    margin: 4px 0px;
+    border: none;
+    background: none;
+}
+
+.oneMonth {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding: 0 0 25px 0;
+}
+
+.logoContain {
+    width: 670px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.huluLogo {
+    background-image: url("../staticLayout/assets/huluLogo.png");
+    width: 40%;
+    height: 89px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.message1 {
+    color: white;
+    text-align: center;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 19px;
+    display: flex;
+}
+
+.message2 {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 23px;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trialBContainer { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 670px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trialB {
+    border-radius: 4px;
+    min-width: 262px;
+    height: 52px;
+    padding: 0 32px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.80;
+}
+
+.stipMessage {
+    margin-top: 18px;
+    opacity: 0.6;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botRibbonContainer {
+    background-image: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    padding: 25px 60px 25px 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contentBlock {
+    width: 100%;
+    max-width: 1520px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.brandLogos {
+    height: 70px;
+    max-width: 355px;
+}
+
+#img1 {
+    max-width: 355px;
+}
+
+.bundleNSave {
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.bundleNSaveTextContainer{
+    text-align: left;
+    padding: 0 8px 0 30px;
+    align-items: center;
+    margin-left: 50px;
+    width: 765px;
+}
+
+.moreDeetsContainer {
+    margin-top: 5px;
+}
+
+.bundleNSaveText {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.moreDeets {
+    padding: 5px 0 0 0;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.getBundleContainer {
+    padding: 20px 8px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.getBundleB {
+    color: white;
+    height: 56px;
+    min-width: 136px;
+    padding: 0 32px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    background: none;
+    border: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+
+.termsLink {
+    color: white;
+    opacity: 0.7;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.botBG {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F6F7;
+}
+
+#img2 {
+    width: 83%;
+}
+
