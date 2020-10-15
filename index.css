@@ -49,7 +49,7 @@ body {
     font-weight: 600;
     letter-spacing: 0.5px;
     line-height: 13px;
-    padding: 0 0 25px 0;
+    padding: 0 0 15px 0;
 }
 
 .logoContain {
@@ -173,7 +173,7 @@ button:hover {
     padding: 0 8px 0 30px;
     align-items: center;
     margin-top: 5px; 
-    margin-left: 30px;
+    margin-left: 25px;
     width: 765px;
     height: 82px;
 }
@@ -184,18 +184,21 @@ button:hover {
 
 .bundleNSaveText {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
 }
 
 .moreDeets {
-    padding: 12px 0 0 0;
+    padding: 10px 0 0 0;
     color: #fff;
     opacity: 0.7;
     font-size: 14px;
-    line-height: 15px;
+    font-weight: 100;
+    letter-spacing: 0.8px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 16px;
     cursor: pointer;
 }
 
@@ -203,7 +206,7 @@ button:hover {
     padding: 20px 8px 0;
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
+    margin-left: 142px;
 }
 
 .getBundleB {
@@ -227,9 +230,10 @@ button:hover {
     color: white;
     opacity: 0.7;
     font-size: 10px;
+    font-weight: 100;
     cursor: pointer;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 8px;
 }
 
 .botBG {
