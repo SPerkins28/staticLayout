@@ -77,8 +77,10 @@ body {
     margin-right: auto;
     font-size: 22px;
     line-height: 30px;
+    font-weight: 600;
     margin-top: 19px;
-    display: flex;
+    letter-spacing: 0.75px;
+    /* display: flex; */
 }
 
 .message2 {
@@ -89,6 +91,7 @@ body {
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
+    letter-spacing: 0.75px;
 }
 
 .trialBContainer { 
@@ -149,6 +152,7 @@ button:hover {
 .brandLogos {
     height: 70px;
     max-width: 355px;
+    margin-top: 10px;
 }
 
 #img1 {
@@ -168,8 +172,10 @@ button:hover {
     text-align: left;
     padding: 0 8px 0 30px;
     align-items: center;
-    margin-left: 50px;
+    margin-top: 5px; 
+    margin-left: 30px;
     width: 765px;
+    height: 82px;
 }
 
 .moreDeetsContainer {
@@ -180,14 +186,17 @@ button:hover {
     color: #FFFFFF;
     font-size: 24px;
     line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .moreDeets {
-    padding: 5px 0 0 0;
+    padding: 12px 0 0 0;
     color: #fff;
     opacity: 0.7;
     font-size: 14px;
     line-height: 15px;
+    cursor: pointer;
 }
 
 .getBundleContainer {
